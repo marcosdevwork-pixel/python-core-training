@@ -3,8 +3,8 @@
 #==============================================
 
 # Ask the user for two numbers
-number1 = int(input("Enter the first number:"))
-number2 = int(input("Enter the second number:"))
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
 
 # Perform all math operations
 addition = number1 + number2

@@ -3,8 +3,8 @@
 #===================================
 print("=== User Information ===")
 
-name = input("Enter your name:")
-age = int(input("Enter your age:"))
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
 # Input: Ask the user for their name and age 
 
 print(f"Hello {name}, you are {age} years old.")
