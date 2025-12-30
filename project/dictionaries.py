@@ -12,7 +12,7 @@ file_info["name"] = "report_2025"
 file_info["extension"] = ".pdf"
 
 # Add file size to dictionary
-file_info["size"] = "2048"
+file_info["size"] = 2048
 
 # Access values from the dictionary and store in variables
 name = file_info["name"]
@@ -33,11 +33,11 @@ print("--------------------")
 file_info = {
     "name": "report_2025",
     "extension": ".pdf",
-    "size": "2048"
+    "size": 2048
 }
 
 # Update the file size
-file_info["size"] = "2450"
+file_info["size"] = 2450
 
 # Access values in the dictionary and store in variables
 name = file_info["name"]
@@ -59,10 +59,10 @@ print("--------------------")
 file_info = {
     "name": "report_2025",
     "extension": ".pdf",
-    "size": "2450"
+    "size": 2450
 }
 
-# Add create date and author to the dictionary
+# Add creation date and author to the dictionary
 file_info["created_date"] = "12/27/2025"
 file_info["author"] = "Marcos"
 
@@ -89,7 +89,7 @@ print("--------------------")
 file_info = {
     "name": "report_2025",
     "extension": ".pdf",
-    "size": "2450"
+    "size": 2450
 }
 
 # Check if the "author" key exists before accessing it
@@ -107,12 +107,12 @@ print("--------------------")
 file_info = {
     "name": "report_2025",
     "extension": ".pdf",
-    "size": "2450",
+    "size": 2450,
     "created_date": "12/28/2025",
     "author": "Marcos"
 }
 
-# Loop throungh the dictionary with file information
+# Loop through the dictionary with file information
 for key, value in file_info.items():
     print(f"{key}; {value}")
 print("--------------------")
